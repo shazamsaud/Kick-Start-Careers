@@ -18,6 +18,9 @@
       max-width:500px;
       height:250px;
     }
+    .head{
+       font-family: "Lobsters";
+    }
   </style>
 </head>
 <body>
@@ -27,7 +30,7 @@
 <div id="con">
   
 <div  class="border-bottom " STYLE="padding-bottom:8px;margin-bottom:16px;">
-  <center><h1>{{c_Name}} Careers</h1> 
+  <center><h1 class='hea'>{{c_Name}} Careerz</h1> 
   </center>
   <div class='row'>
     <div class='col-12' style="background-color:black;">
@@ -62,6 +65,9 @@
 <div class ="text-center" >
  <button class="btn btn-primary btn-lg">Contact Us</button>
 </div>
+</div>
+<div>
+  {% include 'footer.html' %}
 </div>
 </body>
 </html>
